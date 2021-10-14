@@ -7,5 +7,7 @@ class Exercise1Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_exercise1)
+
+        setTitle(R.string.exercise_1)
     }
 }

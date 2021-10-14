@@ -3,7 +3,7 @@
     package="org.example.layouts">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -11,19 +11,29 @@
         android:theme="@style/Theme.Layouts">
         <activity
             android:name=".Exercise5Activity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".Exercise4Activity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".Exercise3Activity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".Exercise2Activity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".Exercise1Activity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">
