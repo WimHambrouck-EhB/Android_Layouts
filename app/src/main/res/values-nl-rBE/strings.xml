@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lay-outs</string>
+    <string name="which_layout">Welke lay-out wil je zien?</string>
+    <string name="exercise_1">Oefening 1</string>
+    <string name="exercise_3">Oefening 3</string>
+    <string name="exercise_2">Oefening 2</string>
+    <string name="exercise_4">Oefening 4</string>
+    <string name="exercise_5">Oefening 5</string>
+    <string name="details">Details</string>
+    <string name="docent">Docent</string>
+    <string name="big_button">Dit is een grote knop die het hele scherm beslaat</string>
+    <string name="another_button">Nog een knop</string>
+    <string name="small_button">Een klein knopje</string>
+    <string name="firstname">Voornaam</string>
+    <string name="lastname">Achternaam</string>
+    <string name="address">Adres</string>
+    <string name="housenumber">Huisnummer</string>
+    <string name="dob">Geboortedatum</string>
+    <string name="account_number">Bankrekeningnummer</string>
+    <string name="nrn">Rijksregisternummer</string>
+    <string name="subscribe_newsletter">Ik wens mij in te schrijven voor de nieuwsbrief</string>
+    <string name="subscribe">Inschrijven</string>
+    <string name="bank_transfer">Overschrijving</string>
+    <string name="direct_debit">Domiciliëring</string>
+</resources>

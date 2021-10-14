@@ -132,7 +132,7 @@
             android:id="@+id/txt_nin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nin"
+            android:text="@string/nrn"
             app:layout_constraintBaseline_toBaselineOf="@id/edt_nin"
             app:layout_constraintEnd_toStartOf="@id/guideline" />
 

@@ -7,31 +7,31 @@
     <string name="exercise_4">Exercise 4</string>
     <string name="exercise_5">Exercise 5</string>
     <string name="details">Details</string>
-    <string name="wim_hambrouck">Wim Hambrouck</string>
-    <string name="docent">Docent</string>
-    <string name="one">1</string>
-    <string name="two">2</string>
-    <string name="three">3</string>
-    <string name="big_button">Dit is een grote knop die het hele scherm beslaat</string>
-    <string name="another_button">Nog een knop</string>
-    <string name="small_button">Een klein knopje</string>
-    <string name="firstname">Voornaam</string>
-    <string name="lastname">Achternaam</string>
-    <string name="address">Adres</string>
-    <string name="housenumber">Huisnummer</string>
-    <string name="dob">Geboortedatum</string>
-    <string name="account_number">Bankrekeningnummer</string>
-    <string name="nin">Rijksregisternummer</string>
-    <string name="subscribe_newsletter">Ik wens mij in te schrijven voor de nieuwsbrief</string>
-    <string name="subscribe">Inschrijven</string>
-    <string name="seven">7</string>
-    <string name="eight">8</string>
-    <string name="nine">9</string>
-    <string name="plus">+</string>
-    <string name="four">4</string>
-    <string name="five">5</string>
-    <string name="six">6</string>
-    <string name="zero">0</string>
-    <string name="bank_transfer">Overschrijving</string>
-    <string name="direct_debit">Domiciliëring</string>
+    <string name="wim_hambrouck" translatable="false">Wim Hambrouck</string>
+    <string name="docent">Lecturer</string>
+    <string name="one" translatable="false">1</string>
+    <string name="two" translatable="false">2</string>
+    <string name="three" translatable="false">3</string>
+    <string name="another_button">Another button</string>
+    <string name="small_button">A little button</string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="address">Address</string>
+    <string name="housenumber">Housenumber</string>
+    <string name="dob">Date of birth</string>
+    <string name="account_number">Bank account number</string>
+    <string name="nrn">National register number</string>
+    <string name="subscribe_newsletter">I want to subscribe to the newsletter</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="seven" translatable="false">7</string>
+    <string name="eight" translatable="false">8</string>
+    <string name="nine" translatable="false">9</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="four" translatable="false">4</string>
+    <string name="five" translatable="false">5</string>
+    <string name="six" translatable="false">6</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="bank_transfer">Bank transfer</string>
+    <string name="direct_debit">Direct debit</string>
+    <string name="big_button">This is a big button that takes up the whole screen</string>
 </resources>
