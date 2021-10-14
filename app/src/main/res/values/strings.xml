@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="which_layout">Which layout do you want to see?</string>
+    <string name="exercise_1">Exercise 1</string>
+    <string name="exercise_3">Exercise 3</string>
+    <string name="exercise_2">Exercise 2</string>
+    <string name="exercise_4">Exercise 4</string>
+    <string name="exercise_5">Exercise 5</string>
+    <string name="details">Details</string>
+    <string name="wim_hambrouck">Wim Hambrouck</string>
+    <string name="docent">Docent</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="big_button">Dit is een grote knop die het hele scherm beslaat</string>
+    <string name="another_button">Nog een knop</string>
+    <string name="small_button">Een klein knopje</string>
+    <string name="firstname">Voornaam</string>
+    <string name="lastname">Achternaam</string>
+    <string name="address">Adres</string>
+    <string name="housenumber">Huisnummer</string>
+    <string name="dob">Geboortedatum</string>
+    <string name="account_number">Bankrekeningnummer</string>
+    <string name="nin">Rijksregisternummer</string>
+    <string name="subscribe_newsletter">Ik wens mij in te schrijven voor de nieuwsbrief</string>
+    <string name="subscribe">Inschrijven</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="plus">+</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="zero">0</string>
+    <string name="bank_transfer">Overschrijving</string>
+    <string name="direct_debit">Domiciliëring</string>
+</resources>
