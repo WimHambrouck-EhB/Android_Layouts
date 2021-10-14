@@ -6,10 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".Exercise2Activity">
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,43 +18,43 @@
             android:id="@+id/btn_docent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/docent" />
+            android:text="@string/docent"
+            app:layout_constraintEnd_toStartOf="@id/btn_wim"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/btn_wim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/btn_docent"
-            android:layout_centerHorizontal="true"
-            android:text="@string/wim_hambrouck" />
+            android:text="@string/wim_hambrouck"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_docent" />
 
         <Button
             android:id="@+id/btn_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/btn_wim"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:text="@string/one" />
+            android:text="@string/one"
+            app:layout_constraintStart_toEndOf="@id/btn_wim"
+            app:layout_constraintTop_toBottomOf="@id/btn_wim" />
 
         <Button
             android:id="@+id/btn_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/btn_1"
-            android:layout_alignEnd="@id/btn_wim"
-            android:layout_alignRight="@id/btn_wim"
-            android:text="@string/two" />
+            android:text="@string/two"
+            app:layout_constraintEnd_toEndOf="@id/btn_wim"
+            app:layout_constraintTop_toBottomOf="@id/btn_1" />
 
 
         <Button
             android:id="@+id/btn_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/btn_2"
-            android:layout_toStartOf="@id/btn_2"
-            android:layout_toLeftOf="@id/btn_2"
-            android:text="@string/three" />
-    </RelativeLayout>
+            android:text="@string/three"
+            app:layout_constraintEnd_toStartOf="@id/btn_2"
+            app:layout_constraintTop_toBottomOf="@id/btn_2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
