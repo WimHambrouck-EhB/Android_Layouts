@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -31,8 +32,10 @@
             android:id="@+id/edt_firstname"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="@string/firstname"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
+            android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/guideline"
             app:layout_constraintTop_toTopOf="parent" />
@@ -50,8 +53,10 @@
             android:id="@+id/edt_lastname"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="@string/lastname"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
+            android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/guideline"
             app:layout_constraintTop_toBottomOf="@id/edt_firstname" />
@@ -68,8 +73,10 @@
             android:id="@+id/edt_address"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="@string/address"
             android:importantForAutofill="no"
             android:inputType="textPostalAddress"
+            android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/guideline"
             app:layout_constraintTop_toBottomOf="@id/edt_lastname" />
@@ -86,8 +93,10 @@
             android:id="@+id/edt_housenr"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="@string/housenumber"
             android:importantForAutofill="no"
             android:inputType="number"
+            android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/guideline"
             app:layout_constraintTop_toBottomOf="@id/edt_address" />
@@ -104,8 +113,10 @@
             android:id="@+id/edt_dob"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="@string/dob"
             android:importantForAutofill="no"
             android:inputType="date"
+            android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/guideline"
             app:layout_constraintTop_toBottomOf="@id/edt_housenr" />
@@ -122,8 +133,10 @@
             android:id="@+id/edt_accountnr"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="@string/account_number"
             android:importantForAutofill="no"
             android:inputType="number"
+            android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/guideline"
             app:layout_constraintTop_toBottomOf="@id/edt_dob" />
@@ -140,8 +153,10 @@
             android:id="@+id/edt_nin"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="@string/nrn"
             android:importantForAutofill="no"
             android:inputType="number"
+            android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/guideline"
             app:layout_constraintTop_toBottomOf="@id/edt_accountnr" />
